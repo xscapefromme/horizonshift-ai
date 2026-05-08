@@ -790,6 +790,20 @@
   @media (max-width: 860px) {
     .calendar-placeholder { height: 480px; }
   }
+  @media (max-width: 680px) {
+    .calendar-placeholder {
+      height: auto;
+      min-height: 600px;
+      padding: 0;
+      border: none;
+      background: transparent;
+      margin: 24px auto 0;
+    }
+    .calendar-placeholder iframe {
+      height: 700px;
+      min-height: 600px;
+    }
+  }
   .calendar-embed {
     margin-top: 56px;
     background: var(--bg-dark-elev);
