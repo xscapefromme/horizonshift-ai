@@ -103,9 +103,9 @@
     margin: 0;
     text-wrap: balance;
   }
-  h1 { font-size: clamp(36px, 8vw, 104px); }
-  h2 { font-size: clamp(28px, 6vw, 72px); }
-  h3 { font-size: clamp(22px, 3vw, 36px); }
+  h1 { font-size: clamp(48px, 11vw, 104px); }
+  h2 { font-size: clamp(36px, 6vw, 72px); }
+  h3 { font-size: clamp(26px, 3vw, 36px); }
   p  { margin: 0; }
 
   /* ============================================================
@@ -1016,6 +1016,47 @@
 
   /* hero CTA arrow icon */
   .icon-arrow { width: 16px; height: 16px; }
+
+  /* ============================================================
+     MOBILE-FIRST OVERRIDES  (≤ 680px)
+     ============================================================ */
+  @media (max-width: 680px) {
+    /* Hero: tighter vertical padding, crisper eyebrow */
+    .hero { padding-top: 120px; padding-bottom: 48px; }
+    .hero h1 { margin-bottom: 20px; letter-spacing: -0.03em; }
+    .hero-sub { font-size: 16px; margin-bottom: 32px; }
+    .hero-ctas { flex-direction: column; align-items: flex-start; gap: 14px; }
+
+    /* Process: kill sticky scroll, show all steps stacked */
+    .process-scroll { height: auto; }
+    .process-sticky {
+      position: static;
+      height: auto;
+      padding-top: 0;
+      padding-bottom: 60px;
+    }
+    .process-step {
+      grid-template-columns: 1fr;
+      gap: 8px;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+    .process-step-num {
+      font-size: clamp(48px, 14vw, 72px);
+      line-height: 1;
+    }
+    .process-progress { display: none; }
+
+    /* Problem headline: tighter */
+    .problem-headline { font-size: clamp(36px, 10vw, 72px); }
+
+    /* Pillar outlined numbers: scale down */
+    .pillar-bignum { font-size: clamp(72px, 18vw, 120px); }
+
+    /* CTA buttons: full width on small screens */
+    .btn { width: 100%; justify-content: center; }
+    .text-link { align-self: center; }
+  }
 </style>
 </head>
 <body>
