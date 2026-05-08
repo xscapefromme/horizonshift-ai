@@ -1021,19 +1021,11 @@
      MOBILE FIXES  — scoped to ≤ 680px, no desktop styles touched
      ============================================================ */
   @media (max-width: 680px) {
-    /* Hero heading: bigger & crisper on small screens */
-    h1 { font-size: clamp(52px, 13vw, 104px); letter-spacing: -0.03em; }
+    /* Hero heading: let clamp do the work now that inline override is gone */
+    .hero h1 { font-size: clamp(44px, 12vw, 104px); letter-spacing: -0.03em; }
 
-    /* Hero CTAs: stack so buttons don't crowd */
+    /* Hero CTAs: stack vertically */
     .hero-ctas { flex-direction: column; align-items: flex-start; gap: 14px; }
-
-    /* Process: collapse sticky scroll into a plain stacked list.
-       All steps start visible so nothing is cut off. */
-    .process-scroll  { height: auto; }
-    .process-sticky  { position: static; height: auto; padding-bottom: 60px; }
-    .process-step    { grid-template-columns: 1fr; gap: 8px; opacity: 1; transform: none; transition: none; }
-    .process-step-num { font-size: clamp(52px, 16vw, 80px); }
-    .process-progress { display: none; }
   }
 </style>
 </head>
@@ -1071,7 +1063,7 @@
   <div class="container hero-inner">
     <div class="eyebrow hero-eyebrow">✦ AI &amp; AUTOMATION FOR BUSINESS OWNERS</div>
     <h1>
-      <span class="line"><span style="font-size: 104px">Stop running your business.</span></span>
+      <span class="line"><span>Stop running your business.</span></span>
       <span class="line"><span>Have it run itself.</span></span>
     </h1>
     <p class="hero-sub">
