@@ -103,9 +103,9 @@
     margin: 0;
     text-wrap: balance;
   }
-  h1 { font-size: clamp(48px, 11vw, 104px); }
-  h2 { font-size: clamp(36px, 6vw, 72px); }
-  h3 { font-size: clamp(26px, 3vw, 36px); }
+  h1 { font-size: clamp(48px, 8vw, 104px); }
+  h2 { font-size: clamp(38px, 6vw, 72px); }
+  h3 { font-size: clamp(28px, 3vw, 36px); }
   p  { margin: 0; }
 
   /* ============================================================
@@ -333,7 +333,7 @@
   }
   .reveal.in .accent-line { max-width: 240px; }
   .problem-headline {
-    font-size: clamp(38px, 9vw, 132px);
+    font-size: clamp(56px, 9vw, 132px);
     line-height: 1.05;
     letter-spacing: -0.025em;
     max-width: 1100px;
@@ -1018,44 +1018,22 @@
   .icon-arrow { width: 16px; height: 16px; }
 
   /* ============================================================
-     MOBILE-FIRST OVERRIDES  (≤ 680px)
+     MOBILE FIXES  — scoped to ≤ 680px, no desktop styles touched
      ============================================================ */
   @media (max-width: 680px) {
-    /* Hero: tighter vertical padding, crisper eyebrow */
-    .hero { padding-top: 120px; padding-bottom: 48px; }
-    .hero h1 { margin-bottom: 20px; letter-spacing: -0.03em; }
-    .hero-sub { font-size: 16px; margin-bottom: 32px; }
+    /* Hero heading: bigger & crisper on small screens */
+    h1 { font-size: clamp(52px, 13vw, 104px); letter-spacing: -0.03em; }
+
+    /* Hero CTAs: stack so buttons don't crowd */
     .hero-ctas { flex-direction: column; align-items: flex-start; gap: 14px; }
 
-    /* Process: kill sticky scroll, show all steps stacked */
-    .process-scroll { height: auto; }
-    .process-sticky {
-      position: static;
-      height: auto;
-      padding-top: 0;
-      padding-bottom: 60px;
-    }
-    .process-step {
-      grid-template-columns: 1fr;
-      gap: 8px;
-      opacity: 1 !important;
-      transform: none !important;
-    }
-    .process-step-num {
-      font-size: clamp(48px, 14vw, 72px);
-      line-height: 1;
-    }
+    /* Process: collapse sticky scroll into a plain stacked list.
+       All steps start visible so nothing is cut off. */
+    .process-scroll  { height: auto; }
+    .process-sticky  { position: static; height: auto; padding-bottom: 60px; }
+    .process-step    { grid-template-columns: 1fr; gap: 8px; opacity: 1; transform: none; transition: none; }
+    .process-step-num { font-size: clamp(52px, 16vw, 80px); }
     .process-progress { display: none; }
-
-    /* Problem headline: tighter */
-    .problem-headline { font-size: clamp(36px, 10vw, 72px); }
-
-    /* Pillar outlined numbers: scale down */
-    .pillar-bignum { font-size: clamp(72px, 18vw, 120px); }
-
-    /* CTA buttons: full width on small screens */
-    .btn { width: 100%; justify-content: center; }
-    .text-link { align-self: center; }
   }
 </style>
 </head>
@@ -1093,7 +1071,7 @@
   <div class="container hero-inner">
     <div class="eyebrow hero-eyebrow">✦ AI &amp; AUTOMATION FOR BUSINESS OWNERS</div>
     <h1>
-      <span class="line"><span>Stop running your business.</span></span>
+      <span class="line"><span style="font-size: 104px">Stop running your business.</span></span>
       <span class="line"><span>Have it run itself.</span></span>
     </h1>
     <p class="hero-sub">
