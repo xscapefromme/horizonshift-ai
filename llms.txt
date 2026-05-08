@@ -1,0 +1,31 @@
+# HorizonShift AI
+
+> HorizonShift AI builds custom AI and automation systems for business owners who are the bottleneck in their own operations.
+
+## What We Do
+
+We identify the exact workflows eating your time — lead intake, follow-up, invoicing, scheduling, operations — and automate them with custom-fit AI systems. No bloated software. No templates. Built specifically for your business.
+
+## Who We Help
+
+Small to mid-size business owners in real estate, professional services, agencies, and other ops-heavy industries who are tired of being the bottleneck in their own company.
+
+## Results
+
+- 20–31 hours per week reclaimed by automating inbound lead handling and operations
+- 40–67% reduction in invoicing errors through automated billing workflows
+- Businesses scale volume without adding headcount
+
+## The Process
+
+1. **Free Audit Call** — 30–60 minutes to map your bottlenecks and identify automation opportunities
+2. **Custom System Build** — integrated with your existing tools, not a copy-paste template
+3. **Handoff & Support** — you get the time back, we stay on call
+
+## Founder
+
+Markos — Founder of HorizonShift AI. Grew up inside a small business. Built HorizonShift to give operators their time back.
+
+## Book a Free Audit
+
+https://horizonshift-ai.vercel.app/#book
