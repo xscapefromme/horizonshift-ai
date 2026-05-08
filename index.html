@@ -771,14 +771,22 @@
   .calendar-placeholder {
     margin: 56px auto 0;
     width: 100%;
-    max-width: 800px;
-    height: 600px;
+    max-width: 900px;
+    height: auto;
+    min-height: 900px;
     background: var(--bg-dark);
     border: 1px solid var(--border-dark);
     border-radius: 4px;
-    display: flex; align-items: center; justify-content: center;
+    display: flex; align-items: stretch; justify-content: center;
     text-align: center;
-    padding: 24px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .calendar-placeholder iframe {
+    width: 100%;
+    min-height: 900px;
+    border: none;
+    display: block;
   }
   .calendar-placeholder span {
     font-family: var(--font-mono);
@@ -788,7 +796,8 @@
     text-transform: uppercase;
   }
   @media (max-width: 860px) {
-    .calendar-placeholder { height: 480px; }
+    .calendar-placeholder { min-height: 800px; }
+    .calendar-placeholder iframe { min-height: 800px; }
   }
   @media (max-width: 680px) {
     .calendar-placeholder {
