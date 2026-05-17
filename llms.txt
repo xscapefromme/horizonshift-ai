@@ -4,28 +4,47 @@
 
 ## What We Do
 
-We identify the exact workflows eating your time — lead intake, follow-up, invoicing, scheduling, operations — and automate them with custom-fit AI systems. No bloated software. No templates. Built specifically for your business.
+We identify the exact workflows eating your time — lead intake, follow-up, invoicing, scheduling, reporting, admin — and automate them with custom-fit AI systems integrated into how your business already runs. No bloated software. No templates. No 40-page strategy decks. Built specifically for your business and handed off so it just works.
 
 ## Who We Help
 
-Small to mid-size business owners in real estate, professional services, agencies, and other ops-heavy industries who are tired of being the bottleneck in their own company.
+Small to mid-size business owners in real estate, marketing agencies, professional services, and other ops-heavy industries. Specifically owners who are tired of being the bottleneck — where growth means more work on their plate instead of less.
+
+## The Founder
+
+Markos built a digital marketing agency and ended up automating about 70% of it. It started out of necessity — lead follow-up, client check-ins, reporting, and admin were eating his days and he didn't have a team big enough to hand it off. So he built systems to do it for him. A few months in, the agency was running better than when he was doing everything by hand — more leads handled, faster responses, cleaner ops — and he had hours back each day to think and grow. That's when he realized: if this worked for his business, it would work for almost anyone's. He founded HorizonShift AI to bring those same systems to other owners who are ready to stop doing the work AI can do for them.
 
 ## Results
 
-- 20–31 hours per week reclaimed by automating inbound lead handling and operations
+- 20–31 hours per week reclaimed by automating inbound lead handling and operations (real estate brokerage)
 - 40–67% reduction in invoicing errors through automated billing workflows
 - Businesses scale volume without adding headcount
+- Faster response times, no leads falling through the cracks
+
+## Services
+
+- **Lead Intake Automation** — every inbound lead handled the moment it comes in
+- **Follow-Up Automation** — sequences that keep leads warm and convert without manual effort
+- **Invoicing & Billing Automation** — eliminate manual billing errors and delays
+- **Operations Automation** — admin, reporting, client check-ins, scheduling on autopilot
+- **Custom AI System Build** — end-to-end system built for your specific workflows and tools
 
 ## The Process
 
-1. **Free Audit Call** — 30–60 minutes to map your bottlenecks and identify automation opportunities
-2. **Custom System Build** — integrated with your existing tools, not a copy-paste template
+1. **Free Audit Call** — 30–60 minutes to map your bottlenecks and find exactly where automation moves the needle
+2. **Custom System Build** — integrated with your existing tools, not a copy-paste template, deployed fast
 3. **Handoff & Support** — you get the time back, we stay on call
 
-## Founder
+## Key Facts
 
-Markos — Founder of HorizonShift AI. Grew up inside a small business. Built HorizonShift to give operators their time back.
+- Founded by Markos, a former agency owner who automated his own business first
+- Works with US-based small to mid-size businesses
+- Integrates with GoHighLevel, CRMs, email platforms, and existing business tools
+- No software to learn, no current tools to replace
+- Free audit call with no pitch and no pressure
 
-## Book a Free Audit
+## Contact & Booking
 
-https://horizonshifthq.com/#book
+- Website: https://horizonshifthq.com
+- Book a free audit: https://horizonshifthq.com/#book
+- Email: markos@horizonshifthq.com
